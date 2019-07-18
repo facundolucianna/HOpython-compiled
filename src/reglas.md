@@ -39,3 +39,5 @@ gcc -shared arrays.o add_two.o -o libmymath.so
 ```
 
 ### Paso 3
+
+Se crea el archivo *libmymath.py* de Python. En este caso solo se verificaron que las funciones anden correctamente. Lo ideal seria crear una API con un objeto que incluya en diferentes metodos las funciones de C y que tenga toda la parte de preparación similar a como fue desarrollado para que sea transparente la implementación para el usuario.
